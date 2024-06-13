@@ -74,7 +74,7 @@ class PopulationAnalyzer:
                 n = n // i
         if n > 2:
             factors.append(n)
-        return factors
+        return sorted(list(set(factors)))
 
     def calculate_final_year_prime_factors(self):
         final_year=self.years[-1]
