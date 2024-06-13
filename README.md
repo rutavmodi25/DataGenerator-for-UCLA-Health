@@ -16,7 +16,9 @@
 
 		python DataGenerator.py
 # Result
-- After execution, the script will generate a population_data.csv file.   
+- After execution, the script will generate a population_data.csv file.
+
+
 
 
   
